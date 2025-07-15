@@ -155,58 +155,58 @@ export function ListingGuidePage() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">✅</span>
-                  <span>Choose the right account type (Individual vs. Business seller, if applicable).</span>
+                  <span>Choose account type: Personal or Business</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">✅</span>
-                  <span>Complete verification (ID, bank details, tax info).</span>
+                  <span>Fill in your details: ID proof, bank account, tax info</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-green-500 mr-2">✅</span>
-                  <span>Enable necessary features (Shipping, returns, payment methods).</span>
+                  <span>Turn on features like shipping, returns & payments</span>
                 </li>
               </ul>
               <div className="mt-3 p-3 bg-accent/10 rounded border-l-4 border-accent">
-                <p className="text-sm"><span className="font-medium">🔹 Pro Tip:</span> Check seller fees & policies upfront to avoid surprises.</p>
+                <p className="text-sm"><span className="font-medium">🔹 Tip:</span>  Check selling fees before starting so there are no surprises!</p>
               </div>
             </div>
 
             {/* Step 2 */}
             <div className="bg-card/50 p-4 rounded-lg border border-border">
-              <h3 className="font-bold text-lg mb-3">Step 2: Add Your Product Listing</h3>
+              <h3 className="font-bold text-lg mb-3">Step 2: Add Your Product.</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">📌</span>
-                  <span><strong>Product Title</strong> → Clear, keyword-rich (e.g., "Wireless Bluetooth Earbuds, 50hr Battery, IPX7 Waterproof").</span>
+                  <span><strong>Title</strong> → Clear, keyword-rich (e.g., "Wireless Bluetooth Earbuds, 50hr Battery, IPX7 Waterproof").</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">📌</span>
-                  <span><strong>High-Quality Images</strong> → Use 5-7 images (white background + lifestyle shots).</span>
+                  <span><strong>Photos</strong> → Use 5–7 good-quality images (plain & lifestyle)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-500 mr-2">📌</span>
-                  <span><strong>Videos (if possible)</strong> → Boosts engagement (e.g., demo video).</span>
+                  <span><strong>Videos </strong> → Add short demo video if you can</span>
                 </li>
               </ul>
               <div className="mt-3 p-3 bg-accent/10 rounded border-l-4 border-accent">
-                <p className="text-sm"><span className="font-medium">🔹 Pro Tip:</span> Follow the platform's image size/format guidelines (e.g., Amazon: 1000x1000px).</p>
+                <p className="text-sm"><span className="font-medium">🔹  Tip:</span> Use the right image size for each platform</p>
               </div>
             </div>
 
             {/* Step 3 */}
             <div className="bg-card/50 p-4 rounded-lg border border-border">
-              <h3 className="font-bold text-lg mb-3">Step 3: Optimize Product Description & Details</h3>
+              <h3 className="font-bold text-lg mb-3">Step 3: Write a Great Product Description</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">📝</span>
                   <span><strong>Bullet Points (Key Features)</strong> → Highlight benefits, not just specs.</span>
                 </li>
                 <div className="ml-6 italic text-sm text-muted-foreground my-2">
-                  Example: "✅ 50-hour battery life – Enjoy 5x longer playtime than competitors."
+                  Example: "✅ 50-hour battery life –  50 hours playtime"
                 </div>
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">📝</span>
-                  <span><strong>Full Description</strong> → Tell a story (problem → solution). Include:</span>
+                  <span><strong>Full Description</strong> → Talk about what makes it useful</span>
                 </li>
                 <ul className="ml-6 list-disc space-y-1">
                   <li>Materials, dimensions, warranty, FAQs.</li>
@@ -214,13 +214,13 @@ export function ListingGuidePage() {
                 </ul>
               </ul>
               <div className="mt-3 p-3 bg-accent/10 rounded border-l-4 border-accent">
-                <p className="text-sm"><span className="font-medium">🔹 Pro Tip:</span> Use tools like Helium10 (for Amazon) or SEMrush for keyword research.</p>
+                <p className="text-sm"><span className="font-medium">🔹 Tip:</span> Use tools like Helium10 (for Amazon) or SEMrush for keyword research.</p>
               </div>
             </div>
 
             {/* Step 4 */}
             <div className="bg-card/50 p-4 rounded-lg border border-border">
-              <h3 className="font-bold text-lg mb-3">Step 4: Set Competitive Pricing & Offers</h3>
+              <h3 className="font-bold text-lg mb-3">Step 4: Set Price & Offers</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-yellow-500 mr-2">💰</span>
@@ -232,21 +232,21 @@ export function ListingGuidePage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-yellow-500 mr-2">🚚</span>
-                  <span><strong>Shipping Strategy:</strong> Free shipping? Or calculated? (Check platform rules).</span>
+                  <span><strong>Shipping Strategy:</strong> Free or paid?</span>
                 </li>
               </ul>
               <div className="mt-3 p-3 bg-accent/10 rounded border-l-4 border-accent">
-                <p className="text-sm"><span className="font-medium">🔹 Pro Tip:</span> Use repricer tools (e.g., RepricerExpress) if competing on price.</p>
+                <p className="text-sm"><span className="font-medium">🔹  Tip:</span> Offering free shipping helps attract more buyers</p>
               </div>
             </div>
 
             {/* Step 5 */}
             <div className="bg-card/50 p-4 rounded-lg border border-border">
-              <h3 className="font-bold text-lg mb-3">Step 5: Launch & Promote Your Listing</h3>
+              <h3 className="font-bold text-lg mb-3">Step 5: Launch & Promote</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">🚀</span>
-                  <span><strong>Internal Traffic:</strong> Use the platform's ads (e.g., Amazon Sponsored Products).</span>
+                  <span><strong>Internal Traffic:</strong> Use the platform's ads (like Amazon Ads or Meesho Boost).</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-500 mr-2">📢</span>
@@ -258,25 +258,25 @@ export function ListingGuidePage() {
                 </li>
               </ul>
               <div className="mt-3 p-3 bg-accent/10 rounded border-l-4 border-accent">
-                <p className="text-sm"><span className="font-medium">🔹 Pro Tip:</span> Run a Giveaway (e.g., "Buy 1, Get 1 Free") to boost initial sales.</p>
+                <p className="text-sm"><span className="font-medium">🔹 Tip:</span> Give a small freebie or discount for reviews</p>
               </div>
             </div>
 
             {/* Bonus */}
             <div className="bg-accent/5 p-4 rounded-lg border border-accent">
-              <h3 className="font-bold text-lg mb-3 text-accent">BONUS: Post-Launch Checklist</h3>
+              <h3 className="font-bold text-lg mb-3 text-accent">BONUS: After You Launch: Keep Improving</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>Monitor analytics (conversion rate, traffic sources).</span>
+                  <span>Check product views and sales numbers</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>Reply to customer Q&A quickly.</span>
+                  <span>Answer buyer questions quickly</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>Update listing based on reviews/feedback.</span>
+                  <span>Improve your listing using customer feedback</span>
                 </li>
               </ul>
             </div>

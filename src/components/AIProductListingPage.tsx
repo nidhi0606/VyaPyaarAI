@@ -14,44 +14,63 @@ interface ProductData {
   platform: string;
 }
 
-interface GeneratedContent {
-  title: string;
-  bulletPoints: string[];
-  seoDescription: string;
-}
-
 export function AIProductListingPage() {
   const [productData, setProductData] = useState<ProductData | null>(null);
-  const [generatedContent, setGeneratedContent] = useState<GeneratedContent | null>(null);
+  const [generatedContent, setGeneratedContent] = useState<{
+    title: string;
+    bulletPoints: string[];
+    seoDescription: string;
+  } | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const navigate = useNavigate();
   const { toast } = useToast();
 
   useEffect(() => {
-    const data = localStorage.getItem("product_data");
-    if (!data) {
-      navigate("/sell-online");
-      return;
-    }
-    setProductData(JSON.parse(data));
+    const loadProductData = () => {
+      try {
+        const data = localStorage.getItem("product_data");
+        if (!data) {
+          navigate("/sell-online");
+          return;
+        }
+        setProductData(JSON.parse(data));
+      } catch (e) {
+        console.error("Failed to load product data:", e);
+        navigate("/sell-online");
+      }
+    };
+
+    loadProductData();
   }, [navigate]);
 
   const generateContent = async () => {
     if (!productData) return;
 
     setIsGenerating(true);
+    setError(null);
+    
     try {
-      const content = await generateProductListing(productData);
+      const content = await generateProductListing({
+        productName: productData.productName,
+        description: productData.description,
+        category: productData.category,
+        platform: productData.platform,
+      });
+      
       setGeneratedContent(content);
       toast({
         title: "Content Generated! ✨",
         description: "Your AI-powered listing content is ready to use.",
       });
-    } catch (error) {
-      console.error("Error generating content:", error);
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : "Generation failed";
+      console.error("Error generating content:", err);
+      setError(errorMessage);
       toast({
         title: "Generation Failed ❌",
-        description: "There was an issue generating the listing. Please try again.",
+        description: errorMessage,
+        variant: "destructive",
       });
     } finally {
       setIsGenerating(false);
@@ -66,7 +85,13 @@ export function AIProductListingPage() {
     });
   };
 
-  if (!productData) return null;
+  if (!productData) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <p>Loading product data...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-warm">
@@ -138,6 +163,13 @@ export function AIProductListingPage() {
           </Button>
         </div>
 
+        {error && (
+          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600">
+            <p className="font-medium">Error: {error}</p>
+            <p className="text-sm mt-1">Please check your API key and try again.</p>
+          </div>
+        )}
+
         {/* Generated Content */}
         {generatedContent && (
           <div className="space-y-6">
@@ -158,6 +190,9 @@ export function AIProductListingPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-lg font-medium">{generatedContent.title}</p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  {generatedContent.title.length}/60 characters
+                </p>
               </CardContent>
             </Card>
 
@@ -169,10 +204,13 @@ export function AIProductListingPage() {
                   <Button
                     variant="outline"
                     size="sm"
-                    onClick={() => copyToClipboard(generatedContent.bulletPoints.join('\n• '), "Bullet Points")}
+                    onClick={() => copyToClipboard(
+                      generatedContent.bulletPoints.join('\n• '), 
+                      "Bullet Points"
+                    )}
                   >
                     <Copy className="h-4 w-4 mr-1" />
-                    Copy
+                    Copy All
                   </Button>
                 </CardTitle>
               </CardHeader>
@@ -182,6 +220,14 @@ export function AIProductListingPage() {
                     <li key={index} className="flex items-start gap-2">
                       <CheckCircle className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
                       <span>{point}</span>
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        className="h-6 w-6 ml-auto"
+                        onClick={() => copyToClipboard(point, `Point ${index + 1}`)}
+                      >
+                        <Copy className="h-3 w-3" />
+                      </Button>
                     </li>
                   ))}
                 </ul>
@@ -196,7 +242,10 @@ export function AIProductListingPage() {
                   <Button
                     variant="outline"
                     size="sm"
-                    onClick={() => copyToClipboard(generatedContent.seoDescription, "Description")}
+                    onClick={() => copyToClipboard(
+                      generatedContent.seoDescription, 
+                      "Description"
+                    )}
                   >
                     <Copy className="h-4 w-4 mr-1" />
                     Copy
@@ -204,7 +253,12 @@ export function AIProductListingPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">{generatedContent.seoDescription}</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  {generatedContent.seoDescription}
+                </p>
+                <p className="text-xs text-muted-foreground mt-1">
+                  {generatedContent.seoDescription.length}/300 characters
+                </p>
               </CardContent>
             </Card>
           </div>

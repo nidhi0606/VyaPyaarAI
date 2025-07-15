@@ -265,7 +265,7 @@ export function AIPricingPage() {
           <Button 
             onClick={calculatePrice}
             disabled={isCalculating || !selectedPlatform}
-            className="bg-gradient-success text-white hover:opacity-90 px-8 py-3 text-lg"
+            className="bg-gradient-primary text-white hover:opacity-90 px-8 py-3 text-lg"
           >
             {isCalculating ? (
               <>

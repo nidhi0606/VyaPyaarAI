@@ -182,7 +182,8 @@ export function LoginPage() {
             VyaPyaarAI
           </h1>
           <p className="text-muted-foreground mt-2">
-            Your loving business companion 💕
+           <div> Your loving business companion , made with love💕</div>
+            [ Sakshi, Vanshika and Aditi ]
           </p>
         </div>
 
