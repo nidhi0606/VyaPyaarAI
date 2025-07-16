@@ -1,4 +1,3 @@
-// src/pages/LoginPage.tsx
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -8,40 +7,37 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { useToast } from "@/hooks/use-toast";
 import { Heart, Sparkles } from "lucide-react";
 
-// Mock database functions
-const DB_KEY = "vyapyaar_users";
-
-const initializeDB = () => {
-  if (!localStorage.getItem(DB_KEY)) {
-    localStorage.setItem(DB_KEY, JSON.stringify([]));
-  }
-};
+const API_BASE_URL = "http://localhost:5000/api"; // Change if your backend is hosted elsewhere
 
 const signUp = async (userData: { username: string; password: string; email?: string }) => {
-  const users = JSON.parse(localStorage.getItem(DB_KEY) || "[]");
-  
-  if (users.some((u: any) => u.username === userData.username)) {
-    return { success: false, message: "Username already exists" };
-  }
+  try {
+    const response = await fetch(`${API_BASE_URL}/signup`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(userData),
+    });
 
-  users.push(userData);
-  localStorage.setItem(DB_KEY, JSON.stringify(users));
-  return { success: true, message: "Registration successful!", user: userData };
+    const data = await response.json();
+    return data; // expected: { success: boolean, message: string, user?: {...} }
+  } catch (error) {
+    return { success: false, message: "Network error" };
+  }
 };
 
 const login = async (username: string, password: string) => {
-  const users = JSON.parse(localStorage.getItem(DB_KEY) || "[]");
-  const user = users.find((u: any) => u.username === username && u.password === password);
+  try {
+    const response = await fetch(`${API_BASE_URL}/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username, password }),
+    });
 
-  if (!user) {
-    return { success: false, message: "Invalid username or password" };
+    const data = await response.json();
+    return data; // expected: { success: boolean, message: string, user?: {...} }
+  } catch (error) {
+    return { success: false, message: "Network error" };
   }
-
-  return { success: true, message: "Login successful!", user };
 };
-
-// Initialize database
-initializeDB();
 
 export function LoginPage() {
   const [isLoginView, setIsLoginView] = useState(true);
@@ -62,7 +58,7 @@ export function LoginPage() {
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!formData.username || !formData.password) {
       toast({
         title: "Missing information",
@@ -73,10 +69,10 @@ export function LoginPage() {
     }
 
     setIsLoading(true);
-    
+
     try {
       const response = await login(formData.username, formData.password);
-      
+
       if (response.success) {
         localStorage.setItem("vyapyaar_user", JSON.stringify(response.user));
         toast({
@@ -104,7 +100,7 @@ export function LoginPage() {
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!formData.username || !formData.password || !formData.email) {
       toast({
         title: "Missing information",
@@ -124,14 +120,14 @@ export function LoginPage() {
     }
 
     setIsLoading(true);
-    
+
     try {
       const response = await signUp({
         username: formData.username,
         password: formData.password,
         email: formData.email
       });
-      
+
       if (response.success) {
         toast({
           title: "Registration successful!",
