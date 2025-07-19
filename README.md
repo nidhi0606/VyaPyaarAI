@@ -1,9 +1,10 @@
 ### MEESHO SCRIPTED BY HER - TEAM CODEHERS : VYAPYAAR AI 
 - Sakshi Singh A    - Aditi Hotti   - Vanshika Bhojani 
 
-Deployed link :
-PPT link :
-Prototype demo video link : 
+Deployed link : https://vya-pyaar-ai.vercel.app/
+PPT link : https://www.canva.com/design/DAGtI-hPJwg/0p53X7EIgrP5i6RQk5TL0A/edit
+Prototype demo video link : https://www.youtube.com/watch?v=GljMqLtc8sw&feature=youtu.be
+
 --------------------------------------------------------------------------------------------------------------
 
 ⚠️ Note on Scraping Feature in Deployment
