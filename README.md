@@ -18,8 +18,6 @@ Cold Start & Execution Time: Free-tier services often kill inactive containers a
 
 Browserless Environment: These platforms do not allow headless browsers like Chromium to run smoothly without custom server setup and persistent environments.
 
-🧪 In the deployed version, we use static dummy data to simulate scraped results so users can still experience the pricing logic and product flow.
-
 ✅ To experience full scraping functionality, please run the project locally by cloning the repo and following the setup instructions below.
 
 --------------------------------------------------------------------------------------------------------------
