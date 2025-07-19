@@ -4,6 +4,22 @@
 Deployed link :
 PPT link :
 Prototype demo video link : 
+--------------------------------------------------------------------------------------------------------------
+
+⚠️ Note on Scraping Feature in Deployment
+The product price scraping feature showcased in our demo video is fully functional when running the project locally. It uses Playwright-based scraping combined with live competitor analysis from platforms like Meesho.
+
+However, in the deployed version, this scraping functionality is disabled due to the following reasons:
+
+Server-Side Restrictions: Web scraping requires headless browser execution (via Playwright), which demands specific dependencies and system-level permissions not supported on free-tier deployment platforms like Render or Vercel.
+
+Cold Start & Execution Time: Free-tier services often kill inactive containers and have strict timeouts, making scraping unstable or non-functional.
+
+Browserless Environment: These platforms do not allow headless browsers like Chromium to run smoothly without custom server setup and persistent environments.
+
+🧪 In the deployed version, we use static dummy data to simulate scraped results so users can still experience the pricing logic and product flow.
+
+✅ To experience full scraping functionality, please run the project locally by cloning the repo and following the setup instructions below.
 
 --------------------------------------------------------------------------------------------------------------
 ### 🧠 How It Works
@@ -44,7 +60,8 @@ AI Integration
  Backend & Scraping
 - **Node.js** – Backend runtime environment  
 - **Express.js** – API server for frontend-backend communication  
-- **Playwright** – Headless browser automation for scraping live product prices from Meesho  
+- **Playwright** – Headless browser automation for scraping live product prices from Meesho
+- **Mongoose**
 
 --------------------------------------------------------------------------------------------------------------
 ### ✨ Key Features
