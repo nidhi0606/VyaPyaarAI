@@ -111,7 +111,7 @@ npm install
 npm run dev
 
 5. You're all set!
-Open your browser and visit http://localhost:5173 to use the app.
+Open your browser and visit http://localhost:8080/ to use the app.
 
 
 
