@@ -96,7 +96,7 @@ Make sure the following are installed on your system:
 
 ### ⚙️ Installation & Run Steps
 
-1. Clone the repository - git clone https://github.com/SakshiSingh244/meesho-scriptedbyher.git
+1. Clone the repository - git clone https://github.com/SakshiSingh244/VyaPyaarAI.git
 
 2. Create the .env file - VITE_GOOGLE_API_KEY=your_google_gemini_api_key
 
