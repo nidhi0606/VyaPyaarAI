@@ -9,6 +9,10 @@ Prototype demo video link : https://www.youtube.com/watch?v=GljMqLtc8sw&feature=
 
 --------------------------------------------------------------------------------------------------------------
 
+⚠️ Note on Initial Delay
+You may notice a short delay (5–15 seconds) when logging in for the first time after inactivity.
+This happens because the server is hosted on a free-tier platform and goes to sleep when idle. It takes a few seconds to wake up (cold start). After that, performance is fast.
+
 ⚠️ Note on Scraping Feature in Deployment
 The product price scraping feature showcased in our demo video is fully functional when running the project locally. It uses Playwright-based scraping combined with live competitor analysis from platforms like Meesho.
 
