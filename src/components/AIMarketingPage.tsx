@@ -8,7 +8,6 @@ import { ArrowLeft, Megaphone, Copy, Instagram, MessageCircle, Tag } from "lucid
 import { useToast } from "@/hooks/use-toast";
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
 
-// Initialize Gemini AI
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GOOGLE_API_KEY);
 
 interface ProductData {
