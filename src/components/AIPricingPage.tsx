@@ -115,7 +115,7 @@ export function AIPricingPage() {
       "Facebook Marketplace": 2.1
     };
     
-    // Use scraped average if available, otherwise use platform multiplier
+    
     const baseMultiplier = scrapedPrices?.avg && scrapedPrices.avg > costPrice
       ? (scrapedPrices.avg / costPrice) * 0.95 // Slightly undercut average
       : platformMultipliers[selectedPlatform] || 2.5;
@@ -179,9 +179,9 @@ export function AIPricingPage() {
         </div>
       </div>
 
-      {/* Main Content */}
+
       <div className="max-w-4xl mx-auto p-6">
-        {/* Product & Cost Info */}
+       
         <Card className="mb-6 shadow-elegant border-0 bg-gradient-subtle">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -201,7 +201,7 @@ export function AIPricingPage() {
           </CardContent>
         </Card>
 
-        {/* Platform Selection */}
+    
         <Card className="mb-6 shadow-warm border-0 bg-card/80 backdrop-blur-sm">
           <CardHeader>
             <CardTitle>Select Selling Platform</CardTitle>
@@ -223,7 +223,7 @@ export function AIPricingPage() {
           </CardContent>
         </Card>
 
-        {/* Competitor Price Data */}
+      
         {scrapedPrices && (
           <Card className="mb-6 shadow-warm border-0 bg-card/80 backdrop-blur-sm">
             <CardHeader>
@@ -260,7 +260,6 @@ export function AIPricingPage() {
           </Card>
         )}
 
-        {/* Calculate Button */}
         <div className="text-center mb-8">
           <Button 
             onClick={calculatePrice}
@@ -281,10 +280,9 @@ export function AIPricingPage() {
           </Button>
         </div>
 
-        {/* Price Recommendations */}
         {priceRecommendation && (
           <div className="space-y-6">
-            {/* Price Range Cards */}
+      
             <div className="grid md:grid-cols-3 gap-4">
               <Card className="shadow-warm border-0 bg-card/80 backdrop-blur-sm">
                 <CardHeader className="text-center pb-2">
@@ -317,7 +315,7 @@ export function AIPricingPage() {
               </Card>
             </div>
 
-            {/* Profit Analysis */}
+           
             <Card className="shadow-elegant border-0 bg-gradient-primary">
               <CardHeader>
                 <CardTitle className="text-white flex items-center gap-2">
@@ -361,7 +359,7 @@ export function AIPricingPage() {
           </div>
         )}
 
-        {/* Pricing Tips */}
+       
         <Card className="mt-8 shadow-elegant border-0 bg-gradient-primary
         ">
           <CardHeader>
