@@ -34,6 +34,24 @@ AI Integration
 
 
 The entire system is built using the MERN stack ( MongoDB, Express.js, React, and Node.js) for a seamless and scalable experience, and styled with modern tools like Tailwind CSS and Radix UI.
+--------------------------------------------------------------------------------------------------------------
+****Features
+
+ **AI Chatbot Guide**
+Our interactive AI bot helps beginners navigate the complexities of online selling by answering questions, guiding through the process, and suggesting next steps — just like a real business coach.
+
+** ** AI-Generated Product Listings********
+Users can generate compelling and optimized product descriptions using Google Gemini, tailored for online marketplaces.
+
+**📦 Platform Recommendation**
+Based on the product type and user’s preferences, the system suggests the most suitable e-commerce platforms (like Meesho, Flipkart, Amazon) to sell on.
+
+**📣 AI-Generated Ad & Promo Content**
+With a single click, generate catchy promotional headlines, ad copy, and short blurbs to use on social media or product listings.
+
+**💰 Competitor Price Scraper**
+We scrape real-time prices from Meesho to give users a clear picture of the current market — including lowest, highest, and average prices — so they can price their product competitively.
+
 
 
 Deployed link : https://vya-pyaar-ai.vercel.app/
@@ -60,23 +78,6 @@ Browserless Environment: These platforms do not allow headless browsers like Chr
 
 ✅ To experience full scraping functionality, please run the project locally by cloning the repo and following the setup instructions below.
 
---------------------------------------------------------------------------------------------------------------
-****Features
-
- **AI Chatbot Guide**
-Our interactive AI bot helps beginners navigate the complexities of online selling by answering questions, guiding through the process, and suggesting next steps — just like a real business coach.
-
-** ** AI-Generated Product Listings********
-Users can generate compelling and optimized product descriptions using Google Gemini, tailored for online marketplaces.
-
-**📦 Platform Recommendation**
-Based on the product type and user’s preferences, the system suggests the most suitable e-commerce platforms (like Meesho, Flipkart, Amazon) to sell on.
-
-**📣 AI-Generated Ad & Promo Content**
-With a single click, generate catchy promotional headlines, ad copy, and short blurbs to use on social media or product listings.
-
-**💰 Competitor Price Scraper**
-We scrape real-time prices from Meesho to give users a clear picture of the current market — including lowest, highest, and average prices — so they can price their product competitively.
 
 --------------------------------------------------------------------------------------------------------------
 ### 🧠 How It Works
