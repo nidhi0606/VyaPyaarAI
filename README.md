@@ -1,5 +1,9 @@
-### MEESHO SCRIPTED BY HER - TEAM CODEHERS : VYAPYAAR AI 
-- Sakshi Singh A    - Aditi Hotti   - Vanshika Bhojani 
+VYAPYAAR AI 
+Build with Gemini LLM API for smart business advise
+suggest product advise based on budget location and interest
+recommed betseller platform
+packaging and marketing
+
 
 Deployed link : https://vya-pyaar-ai.vercel.app/
 
