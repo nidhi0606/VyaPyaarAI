@@ -1,4 +1,4 @@
-**VYAPYAAR AI **
+VYAPYAAR AI 
 Build with Gemini LLM API for smart business advise
 Suggest product advise based on budget location and interest
 Recommed betseller platform
