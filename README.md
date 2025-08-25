@@ -1,4 +1,7 @@
-**VYAPYAAR AI **
+VYAPYAAR AI B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
+VYAPYAAR AI started with a vision to empower millions of retailers which connects billion populations of India in terms of trade. Even after ages of Internet in India, small mom pop stores hold more than 90% of all India retail trade & are the backbone of our economy.
+We connect retailers directly with brands with the help of technology & supply chain innovation to source products within 48 hrs. Our "execution on ideas" journey started in 2024... We started very first vyapar b2b multibrand platform for unorganised VyaparAI stores in India.
+
 Build with Gemini LLM API for smart business advise
 Suggest product advise based on budget location and interest
 Recommed betseller platform
