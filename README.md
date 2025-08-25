@@ -1,4 +1,4 @@
-##About us
+**About us**
 
 VYAPYAAR AI is creating a an ecosystems of brands ,B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
 
@@ -31,9 +31,9 @@ Suggest product advise based on budget location and interest
 Recommed betseller platform
 Packaging and marketing
 --------------------------------------------------------------------------------------------------------------
-## 🛠️ Tech Stack
+** 🛠️ Tech Stack**
 
-Frontend
+**Frontend**
 - **React** – UI development  
 - **Vite** – Fast dev server and bundler  
 - **TypeScript** – Strong typing for safer code  
@@ -53,7 +53,7 @@ AI Integration
 
 The entire system is built using the MERN stack ( MongoDB, Express.js, React, and Node.js) for a seamless and scalable experience, and styled with modern tools like Tailwind CSS and Radix UI.
 --------------------------------------------------------------------------------------------------------------
-****Features
+**Features**
 
  **AI Chatbot Guide**
 Our interactive AI bot helps beginners navigate the complexities of online selling by answering questions, guiding through the process, and suggesting next steps — just like a real business coach.
@@ -70,11 +70,11 @@ With a single click, generate catchy promotional headlines, ad copy, and short b
 **💰 Competitor Price Scraper**
 We scrape real-time prices from Meesho to give users a clear picture of the current market — including lowest, highest, and average prices — so they can price their product competitively.
 
-Deployed link : https://vya-pyaar-ai.vercel.app/
+**Deployed link **: https://vya-pyaar-ai.vercel.app/
 
-PPT link : https://www.canva.com/design/DAGtI-hPJwg/0p53X7EIgrP5i6RQk5TL0A/edit
+**PPT link **: https://www.canva.com/design/DAGtI-hPJwg/0p53X7EIgrP5i6RQk5TL0A/edit
 
-Prototype demo video link : https://www.youtube.com/watch?v=GljMqLtc8sw&feature=youtu.be
+**Prototype demo video link **: https://www.youtube.com/watch?v=GljMqLtc8sw&feature=youtu.be
 
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ Simultaneously, we perform live price scraping from Meesho using Playwright to a
 
 --------------------------------------------------------------------------------------------------------------
 
-### VALUES:
+** VALUES:**
 
 Empowering Bharat’s Entrepreneurs with AI-Powered E-Commerce Guidance
 
@@ -100,7 +100,7 @@ Built with accessibility in mind, VyapYaarAI leverages tools like VITE for ease 
 Inspired by Meesho’s vision of democratizing e-commerce, VyapYaarAI aims to bridge the digital divide by making business mentorship available to every aspiring seller — especially in Tier-2, Tier-3, and rural India.
 
 --------------------------------------------------------------------------------------------------------------
-****BUILDING BRANDS
+:**BUILDING BRANDS:**
 India is a place of entrepreneurs & so does VyapYaarAI. We have an incubation centre which help entrepreneurs to build fmcg brands which can reach to millions of retail stores across the country.
 ​--------------------------------------------------------------------------------------------------------------
 
