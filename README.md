@@ -1,13 +1,13 @@
 **About us**
 
-VYAPYAAR AI is creating a an ecosystems of brands ,B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
+APNAVYAPYAAR AI is creating a an ecosystems of brands ,B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
 
-VYAPYAAR AI started with a vision to empower millions of retailers which connects billion populations of India in terms of trade. Even after ages of Internet in India, small mom pop stores hold more than 90% of all India retail trade & are the backbone of our economy.
+APNAVYAPYAAR AI started with a vision to empower millions of retailers which connects billion populations of India in terms of trade. Even after ages of Internet in India, small mom pop stores hold more than 90% of all India retail trade & are the backbone of our economy.
 
 We connect retailers directly with brands with the help of technology & supply chain innovation to source products within 48 hrs. Our "execution on ideas" journey started in 2024.
-We started the very first vyapar b2b multi brand platform for unorganised VyaparAI stores in India.
+We started the very first vyapar b2b multi brand platform for unorganised APNAVYAPYAAR stores in India.
 IMPACT CREATED
-FASTEST GO-TO-MARKET Through our platform, we provide the fastest go-to-market strategy. We guarantee capturing 10% of market share within 3 months of launch.  CONSUMER REACH VYAPYAAR AI operates in tier II cities & we have 30% consumer reach in these cities via our retailers network
+FASTEST GO-TO-MARKET Through our platform, we provide the fastest go-to-market strategy. We guarantee capturing 10% of market share within 3 months of launch.  CONSUMER REACH APNAVYAPYAAR AI operates in tier II cities & we have 30% consumer reach in these cities via our retailers network
 
 GROWING EXPONENTIALLY | ROAD AHEAD
 30 Cities             100,000 Stores           2Bn Sales        50 Mn Consumer Reach
@@ -93,9 +93,9 @@ Simultaneously, we perform live price scraping from Meesho using Playwright to a
 
 Empowering Bharat’s Entrepreneurs with AI-Powered E-Commerce Guidance
 
-VyapYaarAI is an intelligent assistant designed to help first-time entrepreneurs and small-town sellers start, scale, and sustain their e-commerce journey with confidence. It simplifies the process of going online by offering AI-powered mentorship, platform recommendations, automated product listing, and sustainability insights — all tailored to the seller’s region, demand trends, and business stage.
+APNAVYAPYAAR is an intelligent assistant designed to help first-time entrepreneurs and small-town sellers start, scale, and sustain their e-commerce journey with confidence. It simplifies the process of going online by offering AI-powered mentorship, platform recommendations, automated product listing, and sustainability insights — all tailored to the seller’s region, demand trends, and business stage.
 
-VyapYaarAI uses advanced natural language models (like Gemini) and contextual market data to provide personalized business suggestions, sustainable product ideas, and strategic pricing tools. It also enables smart content generation for promotions and listing optimization, reducing the technical and creative barriers for new-age digital sellers.
+APNAVYAPYAAR uses advanced natural language models (like Gemini) and contextual market data to provide personalized business suggestions, sustainable product ideas, and strategic pricing tools. It also enables smart content generation for promotions and listing optimization, reducing the technical and creative barriers for new-age digital sellers.
 
 Built with accessibility in mind, VyapYaarAI leverages tools like VITE for ease of use and integrates modular AI components for scalable development. The system is structured to support multi-tiered user journeys: those who are just exploring entrepreneurship and those ready to launch online.
 
