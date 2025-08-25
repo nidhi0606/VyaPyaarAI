@@ -1,4 +1,4 @@
-**About us**
+##About us
 
 VYAPYAAR AI B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
 
