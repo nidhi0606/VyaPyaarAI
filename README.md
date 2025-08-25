@@ -4,9 +4,10 @@ VYAPYAAR AI is creating a an ecosystems of brands ,B2B - commerce company focuse
 
 VYAPYAAR AI started with a vision to empower millions of retailers which connects billion populations of India in terms of trade. Even after ages of Internet in India, small mom pop stores hold more than 90% of all India retail trade & are the backbone of our economy.
 
-We connect retailers directly with brands with the help of technology & supply chain innovation to source products within 48 hrs. Our "execution on ideas" journey started in 2024... We started very first vyapar b2b multibrand platform for unorganised VyaparAI stores in India.
-**IMPACT CREATED**
-**FASTEST GO-TO-MARKET** Through our platform, we provide the fastest go-to-market strategy. We guarantee in capturing 10% of market share within 3 months of launch.  CONSUMER REACH VYAPYAAR AI operates in tier II cities & we have 30% consumer reach in these cities via our retailers network
+We connect retailers directly with brands with the help of technology & supply chain innovation to source products within 48 hrs. Our "execution on ideas" journey started in 2024.
+We started very first vyapar b2b multibrand platform for unorganised VyaparAI stores in India.
+IMPACT CREATED
+FASTEST GO-TO-MARKET Through our platform, we provide the fastest go-to-market strategy. We guarantee in capturing 10% of market share within 3 months of launch.  CONSUMER REACH VYAPYAAR AI operates in tier II cities & we have 30% consumer reach in these cities via our retailers network
 --------------------------------------------------------------------------------------------------------------
 
 **WHAT YOU GET**
