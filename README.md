@@ -1,12 +1,28 @@
 ##About us
 
-VYAPYAAR AI B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
+VYAPYAAR AI is creating a an ecosystems of brands ,B2B - commerce company focused on technology and supply chain innovation that aims to empower retailers to be competitive by providing technology, operational expertise and scale advantage.
 
 VYAPYAAR AI started with a vision to empower millions of retailers which connects billion populations of India in terms of trade. Even after ages of Internet in India, small mom pop stores hold more than 90% of all India retail trade & are the backbone of our economy.
 
 We connect retailers directly with brands with the help of technology & supply chain innovation to source products within 48 hrs. Our "execution on ideas" journey started in 2024... We started very first vyapar b2b multibrand platform for unorganised VyaparAI stores in India.
 **IMPACT CREATED**
 **FASTEST GO-TO-MARKET** Through our platform, we provide the fastest go-to-market strategy. We guarantee in capturing 10% of market share within 3 months of launch.  CONSUMER REACH VYAPYAAR AI operates in tier II cities & we have 30% consumer reach in these cities via our retailers network
+--------------------------------------------------------------------------------------------------------------
+
+**WHAT YOU GET**
+ 
+Sales
+Retailer Network
+Consumer reach
+Investment
+Access to Industry Leaders
+Competitive landscape
+End to end technology platform
+Ready to use supply chain
+Fastest Go-to-Market Channel
+Significant Marketshare
+Idea to Invoice 
+whatever it takes to build a brand
 
 Build with Gemini LLM API for smart business advise
 Suggest product advise based on budget location and interest
@@ -52,8 +68,6 @@ With a single click, generate catchy promotional headlines, ad copy, and short b
 **💰 Competitor Price Scraper**
 We scrape real-time prices from Meesho to give users a clear picture of the current market — including lowest, highest, and average prices — so they can price their product competitively.
 
-
-
 Deployed link : https://vya-pyaar-ai.vercel.app/
 
 PPT link : https://www.canva.com/design/DAGtI-hPJwg/0p53X7EIgrP5i6RQk5TL0A/edit
@@ -61,6 +75,32 @@ PPT link : https://www.canva.com/design/DAGtI-hPJwg/0p53X7EIgrP5i6RQk5TL0A/edit
 Prototype demo video link : https://www.youtube.com/watch?v=GljMqLtc8sw&feature=youtu.be
 
 --------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+### 🧠 How It Works
+**OUR VISION**
+Our smart selling assistant is powered by a combination of AI and real-time web scraping. When you enter your product details, our system uses the Google Gemini LLM API to understand the product and generate AI-powered descriptions and suggestions.
+
+**OUR MISSION**
+Simultaneously, we perform live price scraping from Meesho using Playwright to analyze real competitor pricing data for similar products. Using this data, we run smart pricing algorithms that suggest the most profitable and competitive price range for your selected selling platform.
+
+--------------------------------------------------------------------------------------------------------------
+
+### VALUES:
+
+Empowering Bharat’s Entrepreneurs with AI-Powered E-Commerce Guidance
+
+VyapYaarAI is an intelligent assistant designed to help first-time entrepreneurs and small-town sellers start, scale, and sustain their e-commerce journey with confidence. It simplifies the process of going online by offering AI-powered mentorship, platform recommendations, automated product listing, and sustainability insights — all tailored to the seller’s region, demand trends, and business stage.
+
+VyapYaarAI uses advanced natural language models (like Gemini) and contextual market data to provide personalized business suggestions, sustainable product ideas, and strategic pricing tools. It also enables smart content generation for promotions and listing optimization, reducing the technical and creative barriers for new-age digital sellers.
+
+Built with accessibility in mind, VyapYaarAI leverages tools like VITE for ease of use and integrates modular AI components for scalable development. The system is structured to support multi-tiered user journeys: those who are just exploring entrepreneurship and those ready to launch online.
+
+Inspired by Meesho’s vision of democratizing e-commerce, VyapYaarAI aims to bridge the digital divide by making business mentorship available to every aspiring seller — especially in Tier-2, Tier-3, and rural India.
+
+--------------------------------------------------------------------------------------------------------------
+****BUILDING BRANDS
+India is a place of entrepreneurs & so does VyapYaarAI. We have an incubation centre which help entrepreneurs to build fmcg brands which can reach to millions of retail stores across the country.
+​--------------------------------------------------------------------------------------------------------------
 
 Lession learned: 
 Initial Delay : short delay when logging in for the first time after inactivity.
@@ -78,29 +118,6 @@ Browserless Environment: These platforms do not allow headless browsers like Chr
 
 ✅ To experience full scraping functionality, please run the project locally by cloning the repo and following the setup instructions below.
 
-
---------------------------------------------------------------------------------------------------------------
-### 🧠 How It Works
-
-Our smart selling assistant is powered by a combination of AI and real-time web scraping. When you enter your product details, our system uses the Google Gemini LLM API to understand the product and generate AI-powered descriptions and suggestions.
-
-Simultaneously, we perform live price scraping from Meesho using Playwright to analyze real competitor pricing data for similar products. Using this data, we run smart pricing algorithms that suggest the most profitable and competitive price range for your selected selling platform.
-
---------------------------------------------------------------------------------------------------------------
-
-### Project Overview:
-
-Empowering Bharat’s Entrepreneurs with AI-Powered E-Commerce Guidance
-
-VyapYaarAI is an intelligent assistant designed to help first-time entrepreneurs and small-town sellers start, scale, and sustain their e-commerce journey with confidence. It simplifies the process of going online by offering AI-powered mentorship, platform recommendations, automated product listing, and sustainability insights — all tailored to the seller’s region, demand trends, and business stage.
-
-VyapYaarAI uses advanced natural language models (like Gemini) and contextual market data to provide personalized business suggestions, sustainable product ideas, and strategic pricing tools. It also enables smart content generation for promotions and listing optimization, reducing the technical and creative barriers for new-age digital sellers.
-
-Built with accessibility in mind, VyapYaarAI leverages tools like VITE for ease of use and integrates modular AI components for scalable development. The system is structured to support multi-tiered user journeys: those who are just exploring entrepreneurship and those ready to launch online.
-
-Inspired by Meesho’s vision of democratizing e-commerce, VyapYaarAI aims to bridge the digital divide by making business mentorship available to every aspiring seller — especially in Tier-2, Tier-3, and rural India.
-
---------------------------------------------------------------------------------------------------------------
 
 ## 📦 Prerequisites
 
