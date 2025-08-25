@@ -52,7 +52,7 @@ Browserless Environment: These platforms do not allow headless browsers like Chr
 ✅ To experience full scraping functionality, please run the project locally by cloning the repo and following the setup instructions below.
 
 --------------------------------------------------------------------------------------------------------------
-** Features**
+****Features
 
  **AI Chatbot Guide**
 Our interactive AI bot helps beginners navigate the complexities of online selling by answering questions, guiding through the process, and suggesting next steps — just like a real business coach.
