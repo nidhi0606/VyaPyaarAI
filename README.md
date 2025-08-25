@@ -1,8 +1,10 @@
 VYAPYAAR AI 
 Build with Gemini LLM API for smart business advise
-suggest product advise based on budget location and interest
-recommed betseller platform
-packaging and marketing
+Suggest product advise based on budget location and interest
+Recommed betseller platform
+Packaging and marketing
+
+The entire system is built using the MERN stack ( MongoDB, Express.js, React, and Node.js) for a seamless and scalable experience, and styled with modern tools like Tailwind CSS and Radix UI.
 
 
 Deployed link : https://vya-pyaar-ai.vercel.app/
@@ -13,11 +15,10 @@ Prototype demo video link : https://www.youtube.com/watch?v=GljMqLtc8sw&feature=
 
 --------------------------------------------------------------------------------------------------------------
 
-⚠️ Note on Initial Delay
-You may notice a short delay (5–15 seconds) when logging in for the first time after inactivity.
-This happens because the server is hosted on a free-tier platform and goes to sleep when idle. It takes a few seconds to wake up (cold start). After that, performance is fast.
+Lession learned: 
+Initial Delay : short delay when logging in for the first time after inactivity.
 
-⚠️ Note on Scraping Feature in Deployment
+Note on Scraping Feature in Deployment
 The product price scraping feature showcased in our demo video is fully functional when running the project locally. It uses Playwright-based scraping combined with live competitor analysis from platforms like Meesho.
 
 However, in the deployed version, this scraping functionality is disabled due to the following reasons:
@@ -37,7 +38,6 @@ Our smart selling assistant is powered by a combination of AI and real-time web 
 
 Simultaneously, we perform live price scraping from Meesho using Playwright to analyze real competitor pricing data for similar products. Using this data, we run smart pricing algorithms that suggest the most profitable and competitive price range for your selected selling platform.
 
-The entire system is built using the MERN stack ( MongoDB, Express.js, React, and Node.js) for a seamless and scalable experience, and styled with modern tools like Tailwind CSS and Radix UI.
 --------------------------------------------------------------------------------------------------------------
 
 ### Project Overview:
