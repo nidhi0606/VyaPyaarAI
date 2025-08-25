@@ -9,6 +9,8 @@ We started the very first vyapar b2b multi brand platform for unorganised Vyapar
 IMPACT CREATED
 FASTEST GO-TO-MARKET Through our platform, we provide the fastest go-to-market strategy. We guarantee capturing 10% of market share within 3 months of launch.  CONSUMER REACH VYAPYAAR AI operates in tier II cities & we have 30% consumer reach in these cities via our retailers network
 
+GROWING EXPONENTIALLY | ROAD AHEAD
+30 Cities             100,000 Stores           2Bn Sales        50 Mn Consumer Reach
 --------------------------------------------------------------------------------------------------------------
 
 **WHAT YOU GET**
